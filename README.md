@@ -11,29 +11,29 @@ Hiih uildel:
 ans iig hargalzah textaread uguh.
 Buh asuult deer hamgiin deed taliin hariultiig songono.
 
-function checkFirstElement(o_container, ans1, ans2, ans3) {
-			var k = 0;
-			var ans = [ans1, ans2, ans3];
+	function checkFirstElement(o_container, ans1, ans2, ans3) {
+		var k = 0;
+		var ans = [ans1, ans2, ans3];
 
-			var container = document.querySelectorAll(o_container + '>UL');
+		var container = document.querySelectorAll(o_container + '>UL');
 
-			for (var i = 0; i < container.length; i++) {
+		for (var i = 0; i < container.length; i++) {
 
-				var asuultUL = container[i].querySelectorAll('LI>UL');
+			var asuultUL = container[i].querySelectorAll('LI>UL');
 
-				for (var j = 0; j < asuultUL.length; j++) {
-					var asuultLI = asuultUL[j].querySelectorAll('LI')[0];
-					var firstInput = asuultLI.querySelector('input') || asuultLI.querySelector('textarea');
-					if (firstInput.type === "radio") {
-						firstInput.checked = true;
-					}
-					else {
-						firstInput.value = ans[k];
-						k++;
-					}
+			for (var j = 0; j < asuultUL.length; j++) {
+				var asuultLI = asuultUL[j].querySelectorAll('LI')[0];
+				var firstInput = asuultLI.querySelector('input') || asuultLI.querySelector('textarea');
+				if (firstInput.type === "radio") {
+					firstInput.checked = true;
+				}
+				else {
+					firstInput.value = ans[k];
+					k++;
 				}
 			}
 		}
+	}
 
 Hergelj bui baival
 checkFirstElement('div', 'Sain bagsh', 'Haluun, buhchim, agaariin soliltsoo muutai', 'Sain');
