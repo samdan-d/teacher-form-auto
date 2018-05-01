@@ -36,4 +36,4 @@ Buh asuult deer hamgiin deed taliin hariultiig songono.
 	}
 
 	//Hergelj bui baival
-	checkFirstElement('div', 'Sain bagsh', 'Haluun, buhchim, agaariin soliltsoo muutai', 'Sain');
+	checkFirstElement('#questions', 'Sain bagsh', 'Haluun, buhchim, agaariin soliltsoo muutai', 'Sain');
