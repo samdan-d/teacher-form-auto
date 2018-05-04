@@ -1,10 +1,10 @@
 # teacher-form-auto
-MUIS - Hicheel tandalt ughud bugluh formiig automataar bugluh.
+MUIS - Hicheel tandalt uguhud bugluh formiig automataar bugluh.
 
 Parameters:
 o_container - asuultuud aguulj bui element .
 ans1 - ehnii textarea d oroh hariul, bagshiin tuhai.
-ans2 - daraagiin  textarea d oroh hariul, curgaltiin orchin.
+ans2 - daraagiin  textarea d oroh hariul, surgaltiin orchin.
 ans3 - daraagiin  textarea d oroh hariul, hicheeliin talaar.
 
 Hiih uildel:
@@ -36,4 +36,4 @@ Buh asuult deer hamgiin deed taliin hariultiig songono.
 	}
 
 	//Hergelj bui baival
-	checkFirstElement('#questions', 'Sain bagsh', 'Haluun, buhchim, agaariin soliltsoo muutai', 'Sain');
+	checkFirstElement('#questions', 'Sain bagsh', 'Haluun, bugchim, agaariin soliltsoo muutai', 'Sain');
