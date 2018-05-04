@@ -35,5 +35,5 @@ Buh asuult deer hamgiin deed taliin hariultiig songono.
 		}
 	}
 
-	//Hergelj bui baival
+	// herhen heregleh ve?
 	checkFirstElement('#questions', 'Sain bagsh', 'Haluun, bugchim, agaariin soliltsoo muutai', 'Sain');
